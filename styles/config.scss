@@ -1,0 +1,15 @@
+@import './config';
+// Hér eiga að vera stillingar með scss breytum fyrir:
+// grid, max-width á síðu, transitions,
+$max-width: 1400px;
+$transitions: transform 300ms ease-in-out;
+// liti, margin-bottom gildi sem eru sameiginleg
+$hvitur:  #eeeeee;
+$svartur1: #222222;
+$ljosgrar:  #cccccc;
+$grar: #999999;
+$svartur: #000000;
+
+$font-size: 1rem; //bottom
+
+

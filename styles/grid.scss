@@ -1,0 +1,10 @@
+// Sækja config
+@import './config';
+
+// Hér skal nota scss @for til að ítra út klösum fyrir grid
+
+@for $i from 1 through 12 {
+    .col-#{$i} {
+      width: percentage($i * (1/12));
+    }
+  }
